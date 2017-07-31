@@ -10,8 +10,6 @@ public class CountriesApp {
         int keepGoing;
         CountriesTextFile countries = new CountriesTextFile();
         File myFile = countries.myFile;
-
-
         System.out.println("Welcome to the Countries Maintenance Application!");
         System.out.println("What's your name?");
         String name = scan.nextLine();

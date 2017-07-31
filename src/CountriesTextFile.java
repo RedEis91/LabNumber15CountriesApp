@@ -1,16 +1,12 @@
 import java.io.*;
-import java.util.Scanner;
 
 /**
  * Created by Jared on 7/26/17.
  */
 public class CountriesTextFile {
     File myFile = new File("countries.txt");
-
     public static void writeToFile(Object input, File myFile) {
-        //tank to hold file
-
-        Scanner scan = new Scanner(System.in);
+        //tank to hold file;
         //any error the program can't handle at runtime is known as an Exception
         //PrintWriter class has method built in to say: "Hey, I know you're going to be looking for a file"
         //In case you don't have access to that file, for whatever reason...
@@ -47,5 +43,4 @@ public class CountriesTextFile {
             System.out.println("File not found!");
         }
     }
-
 }
